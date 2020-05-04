@@ -122,3 +122,10 @@ $mainColor : #238582;
 $pointColor : #ff3911;
 $whiteColor : #eee;
 $blackColor : #333;
+
+//LAYOUT
+@mixin box($p:20px,$m:10px,$bgColor: #eee) {
+    padding: $p;
+    margin: $m;
+    background-color: $bgColor;
+}
