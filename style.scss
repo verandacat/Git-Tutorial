@@ -111,14 +111,18 @@ img {
     vertical-align: top;
 }
 
-/* FONT STYLE */
-
+// FONT STYLE 
 $title : 40px;
 $sub_title : 30px;
 $font_sm : 12px;
 
-/* COLOR*/
+// COLOR
 $mainColor : #238582;
 $pointColor : #ff3911;
 $whiteColor : #eee;
 $blackColor : #333;
+
+// BREAK POINTS
+$mobile : 335px;
+$tablet : 758px;
+$desktop : 1024px;
